@@ -19,4 +19,4 @@ const abspannElement = document.getElementById('abspannElement');
         }, 1000); // Warten Sie 1000 Millisekunden (1 Sekunde) vor dem erneuten Anzeigen
     }
 
-    setInterval(changeText, 3000); // Ändert den Text alle 6 Sekunden
+    setInterval(changeText, 3000); // Ändert den Text alle 3 Sekunden
