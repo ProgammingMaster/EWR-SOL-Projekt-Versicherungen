@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .abspann-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            border: 2px solid black;
+            font-size: 8em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: green;
+        }
+
+        .abspann {
+            padding: 20px;
+            opacity: 0; 
+            transition: opacity 1s;
+        }
+    </style>
+</head>
+<body>
+
+<div class="abspann-container" id="fadeContainer">
+    <div class="abspann" id="abspannElement">Arbeitslos</div>
+</div>
+
+<script>
+    const abspannElement = document.getElementById('abspannElement');
+    const textArray = [
+        'Arbeitslos',
+        'Bandscheibenvorfall',
+        'Chemieexplosion',
+        'Diebstahl',
+        'Einbruch'
+    ];
+
+    let index = 0;
+
+    function changeText() {
+        abspannElement.style.opacity = 0; // Setzen Sie die Opazität auf 0 vor dem Ändern des Textes
+        setTimeout(() => {
+            abspannElement.textContent = textArray[index];
+            index = (index + 1) % textArray.length;
+            abspannElement.style.opacity = 1; // Setzen Sie die Opazität auf 1 nach dem Ändern des Textes
+        }, 1000); // Warten Sie 1000 Millisekunden (1 Sekunde) vor dem erneuten Anzeigen
+    }
+
+    setInterval(changeText, 6000); // Ändert den Text alle 6 Sekunden
+</script>
+
+</body>
+</html>
