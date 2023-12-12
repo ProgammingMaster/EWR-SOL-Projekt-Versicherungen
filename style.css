@@ -5,6 +5,9 @@
 body{
     margin: 0;
 }
+main{
+    margin: 15px;
+}
 header{
     background-color: lightblue;
     padding-top: 15px;
@@ -91,9 +94,15 @@ footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: green;
 }
-
 .abspann {
     padding: 20px;
     opacity: 0; 
     transition: opacity 1s;
+}
+.light_blue-text{
+    background-color: rgb(109, 196, 225);
+}
+.list li{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
