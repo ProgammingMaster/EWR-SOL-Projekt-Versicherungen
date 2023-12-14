@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 *::selection{
     background-color: black;
     color: white;
@@ -105,4 +108,66 @@ footer{
 .list li{
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.app{
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: hsl(217, 100%, 15%);
+    font-weight: 600px;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: hsl(217, 100%, 15%);
+    font-weight: 600;
+    margin-top: 1px;
+}
+.btn{
+    background-color: white;
+    color: hsl(0, 0%, 13%);
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 13%);
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background-color: hwb(0 13% 87%);
+    color: white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
+    background-color: hsl(217, 100%, 15%);
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background-color: hsl(146, 66%, 76%);
+}
+.incorrect{
+    background-color: hsl(0, 100%, 79%);
 }
