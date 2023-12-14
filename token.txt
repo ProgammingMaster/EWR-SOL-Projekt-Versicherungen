@@ -1,0 +1,3 @@
+
+
+git remote add origin main https://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@github.com/ProgrammingMaster/EWR-SOL-Projekt-Versicherungen.git
