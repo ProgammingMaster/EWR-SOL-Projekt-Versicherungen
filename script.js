@@ -37,6 +37,30 @@ const questions = [
             {text: "Das Geld, das man von der Versicherung bei einem Schadensfall bezahlt bekommt", correct: false},
             {text: "Die Vertragsdetails zur jeweiligen Versicherung", correct: false},
         ]
+    },
+    {
+        question: "Wieviel bezahlt man für Schweizer Versicherungen pro Jahr?",
+        answers: [
+            {text: "Über 3'000", correct: false},
+            {text: "Über 5'000", correct: false},
+            {text: "Über 12'000", correct: true},
+        ]
+    },
+    {
+        question: "Welche Privatpersonen profitieren im Normalfall am meisten von Versicherungen?",
+        answers: [
+            {text: "Ältere Menschen", correct: false},
+            {text: "Menschen, die ein höheres Risiko haben von unerwarteten Ereignissen betroffen zu sein", correct: true},
+            {text: "Menschen, die viel Geld besitzen", correct: false},
+        ]
+    },
+    {
+        question: "Wenn ein Versicherungsfall eintrifft, was sollte man zuerst machen?",
+        answers: [
+            {text: "Polizei anrufen", correct: false},
+            {text: "Schaden dokumentieren", correct: true},
+            {text: "Die Versicherungshotline anrufen ", correct: false},
+        ]
     }
 ];
 
