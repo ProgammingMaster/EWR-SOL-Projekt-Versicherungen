@@ -171,3 +171,7 @@ footer{
 .incorrect{
     background-color: hsl(0, 100%, 79%);
 }
+.title-img{
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
