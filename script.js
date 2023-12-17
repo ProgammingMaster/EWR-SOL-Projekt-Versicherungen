@@ -61,6 +61,14 @@ const questions = [
             {text: "Schaden dokumentieren", correct: true},
             {text: "Die Versicherungshotline anrufen ", correct: false},
         ]
+    },
+    {
+        question: "Welche dieser Versicherungen ist obligatorisch?",
+        answers: [
+            {text: "Unfallversicherung", correct: true},
+            {text: "Reisekrankheitenversicherung", correct: false},
+            {text: "Reisegepäckversicherung", correct: false},
+        ]
     }
 ];
 
