@@ -50,7 +50,7 @@ const questions = [
         question: "Welche Privatpersonen profitieren im Normalfall am meisten von Versicherungen?",
         answers: [
             {text: "Ältere Menschen", correct: false},
-            {text: "Menschen, die ein höheres Risiko haben von unerwarteten Ereignissen betroffen zu sein", correct: true},
+            {text: "Menschen, die ein höheres Risiko haben, von unerwarteten Ereignissen betroffen zu sein", correct: true},
             {text: "Menschen, die viel Geld besitzen", correct: false},
         ]
     },
