@@ -178,4 +178,10 @@ footer{
 .img-container{
     width: 750px;
     font-size: 30px;
+    text-align: center;
+    margin-left: 25%;
+}
+.comic{
+    display: block;
+    margin-left: 25%;
 }
