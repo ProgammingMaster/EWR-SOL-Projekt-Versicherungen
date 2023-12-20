@@ -39,7 +39,7 @@ const questions = [
         ]
     },
     {
-        question: "Wieviel bezahlt man für Schweizer Versicherungen pro Jahr?",
+        question: "Wie viel bezahlt ein durchschnittlicher Schweizer pro Jahr für Versicherungen?",
         answers: [
             {text: "Über 3'000", correct: false},
             {text: "Über 5'000", correct: false},
@@ -134,7 +134,7 @@ function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Agian";
-    nextButton.style.display = "bock";
+    nextButton.style.display = "block";
 }
 
 function handleNextButton(){
