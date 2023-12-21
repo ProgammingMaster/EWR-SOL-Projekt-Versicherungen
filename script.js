@@ -65,7 +65,7 @@ const questions = [
     {
         question: "Welche dieser Versicherungen ist obligatorisch?",
         answers: [
-            {text: "Unfallversicherung", correct: true},
+            {text: "Obligatorische Unfallversicherung", correct: true},
             {text: "Reisekrankheitenversicherung", correct: false},
             {text: "Reisegepäckversicherung", correct: false},
         ]
