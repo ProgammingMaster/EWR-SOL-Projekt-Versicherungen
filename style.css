@@ -66,10 +66,13 @@ footer{
 }
 .navbar a:hover{
     color: black;
-    background-color: rgb(149, 149, 149);
+    background-color: hsl(0, 0%, 58%);
 }
 .navbar li{
     float: left;
+}
+.list_item{
+    background-color: hsl(0, 0%, 58%);
 }
 .navbar{
     border: 2px solid black;
