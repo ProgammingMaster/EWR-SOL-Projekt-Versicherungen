@@ -185,3 +185,7 @@ footer{
     display: block;
     margin-left: 20%;
 }
+#Abspann_text{
+    text-align: center;
+    color: red;
+}
